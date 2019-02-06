@@ -19,6 +19,101 @@
             <h1>Interactive Quiz App</h1>
          </header>
 
+         <!-- START AREA - content1 -->
+         <main role="main" id="content1" class="content1 js-content1">
+            <p id="startPageSubtitle" class="startPageSubtitle js-startPageSubtitle">Test
+               your knowledge about HTML</p>
+
+            <div class="buttonBox">
+               <button id="startPageButton" class="startPageButton js-startPageButton"
+                 type="submit">Start Quiz</button>
+            </div>
+         </main>
+
+
+         <!-- <!–– QUESTION AREA - Content2 -->
+
+         <div id="content2" class="content2 js-content2">
+
+            <div id="questionArea" class="questionArea js-questionArea">
+               <h2 id="questionNum" class="questionNum js-questionNum"></h2>
+            </div>
+
+            <!-- <!––Below text questi on.––> -->
+
+            <div>
+               <p id="quizQuestion" class="quizQuestion js-quizQuestion">
+               </p>
+            </div>
+
+            <!-- <!––Below radio list form––> -->
+            <form id="myForm">
+               <fieldset>
+                  <legend>Pick an answer:</legend>
+
+                  <div class="answerListBox">
+                     <ol id="answer-list" class="answer-list js-answer-list">
+                     </ol>
+                  </div>
+
+                  <div class="submitButtonBox">
+                     <input id="submitAnswer" type="submit" value="Submit your answer">
+                  </div>
+               </fieldset>
+            </form>
+         </div>
+
+         <!-- QUESTION VALIDATION AREA - content2_a-->
+
+         <div id="content2_a" class=" content2_a js-content2_a">
+
+            <div id="questionValidation" class="questionValidation js-questionValidation">
+
+               <div>
+                  <p class="youPicked ">You picked the following answer:</p>
+                  <p class="answer-validation js-answer-validation">
+                     <!-- <!––right answer––> -->
+                  </p>
+               </div>
+
+               <div>
+                  <p class="answerIs ">Your answer is:</p>
+                  <p class="correct-answer js-correct-answer">
+                     <!-- <!––right/wrong feedback––> -->
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <p class="userScore">SCORE:</p>
+               <p id="score" class="score js-score"></p>
+            </div>
+         </div>
+
+         <!-- CONTINUE BUTTON -->
+
+         <div class="continueButtonBox">
+            <button id="continue" class="continue ">Continue</button>
+         </div>
+
+         <!-- END AREA - content3 -->
+
+         <div id="content3" class="content3 js-content3">
+            <p>Congratulations!</p>
+            <p>You have completed the quiz.</p>
+            <strong>Your total score is:</strong>
+            <p id="scoreTotal" class="scoreTotal js-scoreTotal"></p>
+
+            <!-- button "take again " -->
+            <button id="takeAgainbt" class="takeAgainbt js-takeAgainbt">Take the quiz
+               again</button>
+         </div>
+         <footer class="footerContainer" role="contentinfo">
+
+            <div class="footer">
+               <p class="myName">A. Cerrotti</p>
+            </div>
+         </footer>
       </div>
 
       <script src="//code.jquery.com/jquery.min.js"></script>

@@ -1,7 +1,111 @@
-/*image  */
-header{
-  padding:12px;
+.appContent{
+  padding-top:30px;
+  margin:0 auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  /*image*/
+  background-image: url("images.css/Background.jpg");
+  background-size: cointain;
+  background-repeat: repeat-x;
+}
+
+  /*image  */
+  header{
+    padding:12px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #254c75;
+  }
+
+  h1{
+  color:white;
+  text-align: center;
+}
+
+#myForm{
   margin-left: auto;
   margin-right: auto;
-  background-color: #254c75;
-}  
+}
+
+.content1{
+  font-size:12pt;
+  margin-top: 16px;
+}
+.footer{
+  background-color:hsl(44, 43%, 70%);
+  padding-top:6px;
+  padding-bottom:3px;
+  margin-left:0px;
+  }
+  .footerContainer{
+    background-color:hsl(44, 43%, 70%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .questionArea, .startPageSubtitle, .quizQuestion{
+    width:300px;
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:9px;
+    padding:3px;
+  }
+  .myName{
+    text-align:center;
+  }
+  .content2, .content3{
+    background-color:rgb(227, 233, 240);
+    padding-bottom: 26px;
+  }
+  .content3{
+    padding:12px;
+  }
+
+  button{
+    padding:9px;
+    background-color:rgb(105, 138, 175);
+    color:white;
+    text-transform: uppercase;
+    font-size:10pt;
+    font-style:light;
+  }
+  .startPageButton{
+    margin-top: 9px;
+  }
+  .startPageSubtitle{
+    color:rgb(237, 240, 245)
+  }
+  .submitButtonBox, .continueButtonBox{
+    padding:18px;
+  }
+  #submitAnswer{
+      margin-bottom: 12px;
+  }
+  .questionValidation{
+    margin-top:33px;
+  }
+  #continue{
+    margin: 9px;
+  }
+  .quizQuestion, .questionNum{
+    text-align: center;
+  }
+  .answerListBox, fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    background-color:rgb(237, 240, 245);
+    padding: 9px;
+  }
+
+  .answer-list{
+    text-align:left;
+    line-height: 1.6;
+
+  }
+  .youPicked, .answerIs, .userScore{
+    font-weight: 700;
+  }
+  .takeAgainbt{
+    margin-bottom:18px;
+  }
