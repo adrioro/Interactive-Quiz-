@@ -107,9 +107,10 @@ function printScoreCount() {
 //CONTINUE BUTTON
 function continueQuizEventButton() {
     $("#continue").click(function () {
+        $("#submitAnswer").show();
         $("#content2_a").hide(); //the validation feedback needs to be hidden, until the user submits the answer again.
-        $('#continue').prop('disabled', true);
         return (store.currQuestionIndex < 10 ? nextQuestion() : finalContent());
+
     });
 }
 
