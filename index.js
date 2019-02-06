@@ -78,6 +78,7 @@ function submitAnswerEventButton() {
         $("input[type=radio]").attr('disabled', true);
         printScoreCount();
         $("#continue").show();
+        $("#submitAnswer").hide();
     })
 }
 
