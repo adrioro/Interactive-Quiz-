@@ -42,7 +42,7 @@ function renderQuestion() {
         //apend it to the list.
         //$("#answer-list").append(<label for="?">?</label>)
         $("#answer-list").append(listItem);
-        $("#continue").show();
+        $("#continue").hide();
         $("#content2").show();
         $("#content3").hide();
     }
