@@ -77,6 +77,7 @@ function submitAnswerEventButton() {
         booleanRightWrong();
         $("input[type=radio]").attr('disabled', true);
         printScoreCount();
+        $("#continue").show();
     })
 }
 
